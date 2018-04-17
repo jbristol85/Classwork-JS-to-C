@@ -24,7 +24,7 @@
 #include <string.h>
 #include <math.h>
 
-int sumfib(int num)
+int sumFibs(int num)
     {
         int previous = 0;
         int currentnum = 1;
