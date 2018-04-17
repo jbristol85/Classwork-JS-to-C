@@ -47,5 +47,5 @@ int main(int argc, string argv[])
 
 
 
-    printf("%lli\n",factorialize(number));
+    printf("%lli\n", factorialize(number));
 }
