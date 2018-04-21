@@ -5,34 +5,6 @@
 #include <ctype.h>
 #include <string.h>
 #include <math.h>
-// function isPrime(num){
-//   for(var n = 2; n < num; n++){
-//     if (num % n == 0){
-//       return false;
-//     }
-//   }
-//   return true;
-// }
-
-// function sumPrimes(num) {
-//  var total = 2;
-//   for (var n = 3; n <= num; n++){
-//     if (isPrime(n)){
-//       total += n;
-//     }
-//   }
-//   return total;
-// }
-
-// sumPrimes(10);
-// function isPrime(num){
-//   for(var n = 2; n < num; n++){
-//     if (num % n == 0){
-//       return false;
-//     }
-//   }
-//   return true;
-// }
 
 bool isPrime(num)
 {
@@ -45,15 +17,7 @@ bool isPrime(num)
     }
     return true;
 }
-// function sumPrimes(num) {
-//  var total = 2;
-//   for (var n = 3; n <= num; n++){
-//     if (isPrime(n)){
-//       total += n;
-//     }
-//   }
-//   return total;
-// }
+
 int sumPrimes(num)
 {
     int total = 2;
